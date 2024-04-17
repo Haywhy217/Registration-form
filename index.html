@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Validation</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <h1>Registration Form</h1>
+  <div class="container">
+    <main>
+      <p>Kindly fill this form</p>
+      <form id="form">
+          <div class="firstName">
+            <label>*First Name:
+              <input id="fName" type="text" placeholder="Enter your First Name" required>
+            </label>
+          </div>
+          <div class="lastName">
+            <label>*Last Name:
+              <input id="lName" type="text" placeholder="Enter your Last Name" required>
+            </label>
+          </div>
+          <div class="email">
+            <label>*Email:
+              <input id="email" type="email" placeholder="Enter your email address" required>
+            </label>
+          </div>
+          <div class="password">
+            <label>*Password:
+              <input id="password" type="password" placeholder="Enter your password" required>
+            </label>
+          </div>
+          <div class="submit-btn">
+            <button type="submit"> submit</button>
+          </div>
+      </form>
+    </main>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
